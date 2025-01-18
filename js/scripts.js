@@ -134,7 +134,21 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
   });
 
   // Karanlık Tema Geçişi
+// Tema Geçişi
 const toggleTheme = document.getElementById("theme-toggle");
+
 toggleTheme.addEventListener("click", () => {
   document.body.classList.toggle("dark");
+
+  // Geçerli temayı tarayıcıda kaydet
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
 });
+
+// Sayfa Yüklenirken Tema Ayarını Uygula
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+}
