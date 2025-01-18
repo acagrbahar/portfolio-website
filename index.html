@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - [Alaattin Çağrı BAHAR]</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <!-- Anasayfa -->
+  <header id="hero">
+    <h1>Merhaba, Ben Alaattin Çağrı BAHAR</h1>
+    <p>Yazılım projelerime göz atın!</p>
+  </header>
+
+  <!-- Hakkımda -->
+  <section id="about">
+    <h2>Hakkımda</h2>
+    <p>Merhaba, Ben Alaattin Çağrı Bahar. İnönü Üniversitesi Bilgisayar Mühendisliği 4.Sınıf Öğrencisiyim.Eğitim hayatım boyunca bilgisayar bilimleri alanında çeşitli dersler ve eğitimler aldım.
+      Bu eğitimler doğrultusunda çeşitli yazılım projeleri geliştirdim.Ağırlıklı olarak Mobil Uygulama Geliştirme ve Yapay Zeka-Makine Öğrenimi alanlarında çalıştım.Kariyerime bu alanlarda devam etmek istiyorum.
+    </p>
+  </section>
+
+  <!-- Projeler -->
+  <section id="projects">
+    <h2>Projelerim</h2>
+    <div class="projects-container">
+      <!-- Kart 1 -->
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Proje 1">
+        <h3>Proje 1</h3>
+        <p>Bu projede [proje açıklaması] yapılmıştır.</p>
+      </div>
+      <!-- Kart 2 -->
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Proje 2">
+        <h3>Proje 2</h3>
+        <p>Bu projede [proje açıklaması] yapılmıştır.</p>
+      </div>
+      <!-- Kart 3 -->
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Proje 3">
+        <h3>Proje 3</h3>
+        <p>Bu projede [proje açıklaması] yapılmıştır.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Bana aşağıdaki formu doldurarak ulaşabilirsiniz.</p>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı girin" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Mesajınızı buraya yazın" required></textarea>
+      </div>
+      <button type="submit" id="submit-btn">Gönder</button>
+    </form>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
