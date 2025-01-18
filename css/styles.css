@@ -9,24 +9,24 @@ body {
   }
   
   /* Başlık Stilleri */
-  header {
+header {
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: white;
     padding: 50px 20px;
     text-align: center;
   }
   
-  header h1 {
+header h1 {
     font-size: 2.5rem;
     margin: 0;
   }
   
-  header p {
+header p {
     font-size: 1.2rem;
   }
   
   /* Bölüm Stilleri */
-  section {
+section {
     padding: 20px;
     margin: 20px auto;
     max-width: 900px;
@@ -35,18 +35,18 @@ body {
     border-radius: 8px;
   }
   
-  section h2 {
+section h2 {
     color: #4facfe;
     text-align: center;
     margin-bottom: 10px;
   }
   
   /* İletişim Formu */
-  #contact {
+#contact {
     text-align: center;
   }
   
-  #contact p {
+#contact p {
     margin-bottom: 20px;
   }
 
@@ -60,7 +60,7 @@ body {
     }
   }
   
-  header {
+header {
     animation: fadeIn 2s ease-in-out;
   }
 
@@ -69,7 +69,7 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  section:hover {
+section:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
@@ -86,7 +86,7 @@ section {
     transition: background 0.3s ease;
   }
   
-  #contact-btn:hover {
+#contact-btn:hover {
     background: #00f2fe;
   }
 
@@ -98,7 +98,7 @@ section {
     justify-content: center;
   }
   
-  .project-card {
+.project-card {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -108,24 +108,24 @@ section {
     text-align: center;
   }
   
-  .project-card img {
+.project-card img {
     width: 100%;
     height: auto;
     border-bottom: 2px solid #f4f4f4;
   }
   
-  .project-card h3 {
+.project-card h3 {
     color: #4facfe;
     margin: 10px 0;
   }
   
-  .project-card p {
+.project-card p {
     padding: 0 10px 20px;
     font-size: 0.9rem;
     color: #555;
   }
   
-  .project-card:hover {
+.project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
@@ -140,7 +140,7 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  .form-group {
+.form-group {
     margin-bottom: 15px;
   }
   
@@ -209,7 +209,7 @@ section {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
   }
   
-  .project-card:hover {
+.project-card:hover {
     transform: rotateY(15deg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
@@ -222,17 +222,17 @@ section {
   }
   
   /* Karanlık Tema */
-  body.dark {
+body.dark {
     --bg-color: #333;
     --text-color: #f4f4f4;
     --card-bg: #444;
   }
   
-  body {
+body {
     background-color: var(--bg-color);
     color: var(--text-color);
   }
   
-  .project-card {
+.project-card {
     background: var(--card-bg);
   }
